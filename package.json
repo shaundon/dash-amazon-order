@@ -1,18 +1,19 @@
 {
-  "name": "dash-rickroll",
+  "name": "dash-amazon-order",
   "version": "1.0.0",
-  "description": "Rickroll you every time the a Dash button is pressed.",
+  "description": "Use your Amazon product to purchase more Amazon things when you press it.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sudo node index",
+    "find-buttons": "sudo ./node_modules/node-dash-button/bin/findbutton"
   },
   "author": {
-    "name": "Tomomi Imura",
+    "name": "Shaun Donnelly",
     "twitter": "@girlie_mac",
-    "url": "http://girliemac.com"
+    "url": "https://github.com/shaundon"
   },
   "license": "MIT",
   "dependencies": {
-    "node-dash-button": "^0.1.1"
+    "node-dash-button": "0.6.1"
   }
 }
