@@ -9,9 +9,11 @@ the button is pressed.
 
 ## Prerequisites
 
+* Be in the UK (because this uses UK Amazon).
 * NodeJS (6+) and NPM.
 * An Amazon dash button (duh).
 * If using Linux `sudo apt-get install libpcap-dev` first. (macOS already has this).
+* You need [PhantomJS](http://phantomjs.org/download.html) installed. On macOS, you can use `brew install phantomjs`.
 
 ## Usage
 
