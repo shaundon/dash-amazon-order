@@ -1,8 +1,11 @@
-WORK IN PROGRESS!!!
-
 # Dash Amazon Order
 
 Use your Dash button to buy stuff on Amazon. Forked from [Dash Rickroll](https://github.com/girliemac/dash-rickroll).
+
+## To Do
+
+Doesn't actually order anything yet. At the moment it just prints to console when
+the button is pressed.
 
 ## Prerequisites
 
